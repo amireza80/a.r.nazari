@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(143769262)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -235,10 +235,8 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@f_U_C_K_L_I_F_E [Founder]
+@f_U_C_K_L_I_F_E [Manager]
 
 Special thanks to
 awkward_potato
@@ -247,8 +245,8 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@f_U_C_K_L_I_F_Ech [English]
+@f_U_C_K_L_I_F_Ech [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -283,13 +281,13 @@ Get a file of members in group/realm
 !type
 Get group type
 
-!kill chat [GroupID]
+!bega chat [GroupID]
 Kick all memebers and delete group
 
 !kill realm [RealmID]
 Kick all members and delete realm
 
-!addadmin [id|username]
+!adminbezar [id|username]
 Promote an admin by id OR username *Sudo only
 
 !removeadmin [id|username]
@@ -327,46 +325,46 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kick [username|id]
+!sick [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+!sickout [ username|id]
 You can also do it by reply
 
-!unban [id]
+!unsickout [id]
 You can also do it by reply
 
 !who
 Members list
 
-!modlist
+!modiekie?
 Moderators list
 
-!promote [username]
+!modireshkon [username]
 Promote someone
 
-!demote [username]
+!modirnashe [username]
 Demote someone
 
-!kickme
+!sickme
 Will kick user
 
 !about
 Group description
 
-!setphoto
+!aksjadid
 Set and locks group photo
 
-!setname [name]
+!esmjadid [name]
 Set group name
 
 !rules
 Group rules
 
-!id
+!#
 return group id or user id
 
-!help
+!komak
 
 !lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
@@ -389,10 +387,10 @@ create/revoke your group link
 !link
 returns group link
 
-!owner
+!aslikie?
 returns group owner id
 
-!setowner [id]
+!aslikon [id]
 Will set id as owner
 
 !setflood [value]
@@ -426,7 +424,7 @@ will return group ban list
 *Only owner and mods can add bots in group
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+*Only moderators and owner can use sick,sickout,unsickout,newlink,link,aksjadid,esmjadid,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
 
